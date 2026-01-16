@@ -1,1 +1,35 @@
-<h1>PlayNex</h1>
+<!DOCTYPE html>
+<html lang='es'><head><meta charset='UTF-8'><title>PlayNex</title>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel='stylesheet' href='style.css'></head>
+<body><div class='app'>
+<aside class='sidebar'>
+<div class='filters'>
+<button data-filter='all' class='filter active'>Todos</button>
+<button data-filter='pc' class='filter'>PC</button>
+<button data-filter='mobile' class='filter'>Mobile</button>
+</div>
+<input id='search' class='search' placeholder='Buscar...'>
+<ul class='game-list'>
+<li class='active' data-game='pizza'>Pizza Tower</li>
+<li data-game='cs16'>Counter‑Strike 1.6</li>
+<li data-game='fnaf2'>FNAF 2</li>
+<li data-game='deadcells'>Dead Cells</li>
+</ul></aside>
+<main class='content fade show' id='content'>
+<div class='screenshots'>
+<img id='shot-main' class='shot main-shot'>
+<div class='shot-group'>
+<img id='shot-2' class='shot'>
+<img id='shot-3' class='shot'>
+</div></div>
+<div class='separator'></div>
+<h1 id='game-title'></h1>
+<p id='game-desc' class='description'></p>
+<div class='actions'>
+<a id='download-btn' class='btn primary' target='_blank'>⬇ Descargar</a>
+<a id='online-btn' class='btn online' target='_blank' style='display:none'>🟢 ONLINE</a>
+<a class='btn secondary' href='https://www.virustotal.com' target='_blank'>🛡 Verificar virus</a>
+</div></main>
+<aside class='right-panel'><div class='logo'>PlayNex</div></aside>
+</div><script src='script.js'></script></body></html>

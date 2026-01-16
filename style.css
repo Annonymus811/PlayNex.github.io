@@ -1,1 +1,2 @@
-body{background:black;color:#00ff88}
+body{margin:0;background:#0e141b;color:#c7d5e0;font-family:Arial}
+.app{display:grid;grid-template-columns:240px 1fr 200px;height:100vh}
